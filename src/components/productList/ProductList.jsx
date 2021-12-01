@@ -1,12 +1,14 @@
-import "./productList.css";
-import Product from "../product/Product";
-import { products } from "../../data";
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/react-in-jsx-scope */
+import './productList.css'
+import Product from '../product/Product'
+import { products } from '../../data'
 
 const ProductList = () => {
   return (
     <div className="pl">
       <div className="pl-texts">
-        <h1 className="pl-title">Create & inspire. It's Lama</h1>
+        <h1 className="pl-title">See my Data Science/Crypto Projects here</h1>
         <p className="pl-desc">
           Lama is a creative portfolio that your work has been waiting for.
           Beautiful homes, stunning portfolio styles & a whole lot more awaits
@@ -15,11 +17,11 @@ const ProductList = () => {
       </div>
       <div className="pl-list">
         {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} />
+          <Product key={item.id} img={item.img} link={item.link} title ={item.title} />
         ))}
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProductList;
+export default ProductList

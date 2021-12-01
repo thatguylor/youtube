@@ -1,6 +1,8 @@
-import "./product.css";
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/prop-types */
+import './product.css'
 
-const Product = ({img,link}) => {
+const Product = ({ img, link }) => {
   return (
     <div className="p">
       <div className="p-browser">
@@ -12,7 +14,7 @@ const Product = ({img,link}) => {
         <img src={img} alt="" className="p-img" />
       </a>
     </div>
-  );
-};
+  )
+}
 
-export default Product;
+export default Product

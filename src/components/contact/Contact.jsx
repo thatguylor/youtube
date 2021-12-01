@@ -39,15 +39,15 @@ const Contact = () => {
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">
-          <h1 className="c-title">Let's discuss your project</h1>
+          <h1 className="c-title">Connect with me</h1>
           <div className="c-info">
             <div className="c-info-item">
               <img src={Phone} alt="" className="c-icon" />
-              +1 1234 556 75
+              +65 9221 2732
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Email} alt="" />
-              contact@lama.dev
+              chanyaokuan@gmail.com
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />

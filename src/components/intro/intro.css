@@ -11,8 +11,11 @@
 }
 
 .i-right {
-  flex: 1;
+  width: 60%;
+  height: 70vh;
+  border-radius: 30px;
   position: relative;
+  overflow: hidden;
 }
 
 .i-left-wrapper {
